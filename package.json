@@ -1,0 +1,22 @@
+{
+  "name": "sakura-bot",
+  "version": "1.0.0",
+  "description": "🌸 Sakura - Bot WhatsApp prétentieuse pour commu Otaku",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.15.0",
+    "axios": "^1.7.2",
+    "better-sqlite3": "^9.6.0",
+    "whatsapp-web.js": "^1.23.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
