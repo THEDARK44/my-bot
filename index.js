@@ -4,7 +4,7 @@ const { initDB } = require('./data/db');
 
 // ✅ Mets ton numéro ici au format international (sans + ni espaces)
 // Exemple : 33612345678 pour un numéro français
-const PHONE_NUMBER = process.env.PHONE_NUMBER || '0596717956';
+const PHONE_NUMBER = process.env.PHONE_NUMBER || '2250596717956';
 
 const client = new Client({
   authStrategy: new LocalAuth({ clientId: 'sakura' }),
